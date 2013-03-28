@@ -9,9 +9,10 @@ ssh-keygen -t rsa -C "comment" 	 =create a ssh key
 ssh -T git@github.com 		=test ssh key
 git remote add origin git@github.com:itfilip/gittest.git 	=add remote repository origin (GitHub)
 git push origin master 		=upload the master branch to origin
+git pull origin master 		= download and merge remote banch to local branch
 git branch 	= show branches
 git branch r2_index 	=create new branch r2_index
 git checkout r2_index 	=switch to branch r2_index
 git clone "ssh link"  	=download repository
-test
+
 

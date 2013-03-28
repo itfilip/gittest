@@ -14,5 +14,5 @@ git branch 	= show branches
 git branch r2_index 	=create new branch r2_index
 git checkout r2_index 	=switch to branch r2_index
 git clone "ssh link"  	=download repository
-
-
+test1
+test2
